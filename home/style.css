@@ -1,0 +1,34 @@
+.product-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3rem;
+    padding: 3rem;
+    justify-content: center;
+    place-items: center;
+}
+
+.product-img a{
+    width: 300px;
+    height: 300px;
+}
+.product-img a img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--text);
+    border-radius: 2rem;
+}
+
+.new-arrivals{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+    padding: 3rem;
+    justify-content: center;
+    place-items: center;
+}
+
+.sachin img{
+    object-fit: contain;
+    width: 100%;
+    height: 300px;
+}
