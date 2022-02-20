@@ -1,0 +1,26 @@
+:root{
+    --background-color:#FFFFE0;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.navbar-title a {
+    font-size: 3rem;
+}
+.navbar-search-input {
+    width: 30rem;
+}
+
+.navbar-container{
+    justify-content: space-around;
+}
+
+.navbar-item{
+    cursor: pointer;
+}
+
+.card-img-container-hz-1{
+    width: 35rem;
+}
