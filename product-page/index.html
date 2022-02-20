@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="https://bitui.netlify.app/common-css/main.css">
+    <link rel="stylesheet" href="/common-css/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar-container">
+        <div class="navbar-title">
+            <a href="#">Batsman's Paradise</a>
+        </div>
+        <input type="text" placeholder="search" class="navbar-search-input">
+        <div class="navbar-items">
+            <button class="btn btn-warning">Login</button>
+            <img class="navbar-item" src="/assets/heart.svg" alt="">
+            <img class="navbar-item" src="/assets/shopping-cart.svg" alt="">
+        </div>
+    </div>
+    <div class="main-body">
+        <aside class="sidebar">
+            <div class="sidebar-filter">
+                <div class="filter-title bold">Filters</div>
+                <div class="filter-clear">Clear</div>
+            </div>
+            <div class="sidebar-price">
+                <div class="price-title bold">Price</div>
+                <div class="price-range-marking">
+                    <div>0</div>
+                    <div>2500</div>
+                    <div>5000</div>
+                </div>
+                <div class="slider">
+                    <input type="range" min="0" max="10" step="1">
+                </div>
+            </div>
+            <div class="sidebar-category">
+                <div class="list">
+                    <div class="list-head">Category</div>
+                    <ul class="list-items">
+                        <li><input type="checkbox" id="english-willow" name="english-willow" value="english-willow">
+                            <label for="english-willow">English Willow</label>
+                        </li>
+                        <li><input type="checkbox" id="kashmir-willow" name="kashmir-willow" value="kashmir-willow">
+                            <label for="kashmir-willow">Kashmir Willow</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sidebar-rating">
+
+                <div class="list">
+                    <div class="list-head">Rating</div>
+                    <ul class="list-items">
+                        <form action="">
+                            <li>
+                                <input type="radio" id="4star" name="rating" value="4 stars and above" checked="">
+                                <label for="4star">4 stars and above</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="3star" name="rating" value="3 stars and above">
+                                <label for="3star">3 stars and above</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="2star" name="rating" value="2 stars and above">
+                                <label for="2star">2 stars and above</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="1star" name="rating" value="1 stars and above">
+                                <label for="1star">1 stars and above</label>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="sidebar-sortby">
+
+                <div class="list">
+                    <div class="list-head">Sort by</div>
+                    <ul class="list-items">
+                        <form action="">
+                            <li>
+                                <input type="radio" id="lowToHigh" name="sortby" value="lowToHigh" checked="">
+                                <label for="sortby">Price - Low to High</label>
+                            </li>
+                            <li>
+                                <input type="radio" id="highToLow" name="sortby" value="highToLow" checked="">
+                                <label for="sortby">Price - High to Low</label>
+                            </li>
+                        </form>
+                    </ul>
+                </div>
+
+            </div>
+        </aside>
+        <main class="product-listing">
+            <div class="showing-products">Showing Products:</div>
+            <div class="products-in-grid">
+                <div class="card-container card-container-vt-1">
+                    <div class="card-img-container-vt-1">
+                        <img src="/assets/bats.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="card-img-badge-container-vt-1">
+                        <img src="/assets/heart.svg" alt="" srcset="">
+                    </div>
+                    <div class="card-item-vt-1">
+                        <div class="card-item-title-vt-1">SG bat</div>
+                        <div class="card-item-price-vt-1">
+                            <div class="card-item-price1-vt-1">₹ 2000</div>
+                        </div>
+                        <div class="card-item-button-cta">
+                            <button class="btn-go-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container card-container-vt-1">
+                    <div class="card-img-container-vt-1">
+                        <img src="/assets/bats.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="card-img-badge-container-vt-1">
+                        <img src="/assets/heart.svg" alt="" srcset="">
+                    </div>
+                    <div class="card-item-vt-1">
+                        <div class="card-item-title-vt-1">SG bat</div>
+                        <div class="card-item-price-vt-1">
+                            <div class="card-item-price1-vt-1">₹ 2000</div>
+                        </div>
+                        <div class="card-item-button-cta">
+                            <button class="btn-go-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container card-container-vt-1">
+                    <div class="card-img-container-vt-1">
+                        <img src="/assets/bats.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="card-img-badge-container-vt-1">
+                        <img src="/assets/heart.svg" alt="" srcset="">
+                    </div>
+                    <div class="card-item-vt-1">
+                        <div class="card-item-title-vt-1">SG bat</div>
+                        <div class="card-item-price-vt-1">
+                            <div class="card-item-price1-vt-1">₹ 2000</div>
+                        </div>
+                        <div class="card-item-button-cta">
+                            <button class="btn-go-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container card-container-vt-1">
+                    <div class="card-img-container-vt-1">
+                        <img src="/assets/bats.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="card-img-badge-container-vt-1">
+                        <img src="/assets/heart.svg" alt="" srcset="">
+                    </div>
+                    <div class="card-item-vt-1">
+                        <div class="card-item-title-vt-1">SG bat</div>
+                        <div class="card-item-price-vt-1">
+                            <div class="card-item-price1-vt-1">₹ 2000</div>
+                        </div>
+                        <div class="card-item-button-cta">
+                            <button class="btn-go-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container card-container-vt-1">
+                    <div class="card-img-container-vt-1">
+                        <img src="/assets/bats.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="card-img-badge-container-vt-1">
+                        <img src="/assets/heart.svg" alt="" srcset="">
+                    </div>
+                    <div class="card-item-vt-1">
+                        <div class="card-item-title-vt-1">SG bat</div>
+                        <div class="card-item-price-vt-1">
+                            <div class="card-item-price1-vt-1">₹ 2000</div>
+                        </div>
+                        <div class="card-item-button-cta">
+                            <button class="btn-go-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container card-container-vt-1">
+                    <div class="card-img-container-vt-1">
+                        <img src="/assets/bats.jpg" alt="" class="card-img">
+                    </div>
+                    <div class="card-img-badge-container-vt-1">
+                        <img src="/assets/heart.svg" alt="" srcset="">
+                    </div>
+                    <div class="card-item-vt-1">
+                        <div class="card-item-title-vt-1">SG bat</div>
+                        <div class="card-item-price-vt-1">
+                            <div class="card-item-price1-vt-1">₹ 2000</div>
+                        </div>
+                        <div class="card-item-button-cta">
+                            <button class="btn-go-to-cart">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
