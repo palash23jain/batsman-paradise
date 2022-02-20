@@ -12,7 +12,7 @@
 .wishlist-items-grid{
     margin: var(--spacing4);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     row-gap: 5rem;
     column-gap: 3rem;
     place-items: center;
