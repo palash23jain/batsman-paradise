@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://bitui.netlify.app/common-css/main.css">
+    <link rel="stylesheet" href="/common-css/main.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar-container">
+        <div class="navbar-title">
+            <a href="/index.html">Batsman's Paradise</a>
+        </div>
+        <input type="text" placeholder="search" class="navbar-search-input">
+        <div class="navbar-items">
+            <a href="/index.html" class="btn btn-warning">Login</a>
+            <a href="/wishlist-page/index.html"><img class="navbar-item" src="/assets/heart.svg" alt=""></a>
+            <a href="/cart-page/index.html"><img class="navbar-item" src="/assets/shopping-cart.svg" alt=""></a>
+        </div>
+    </div>
+    <main class="login-main">
+        <div class="card-container card-login card-shadow">
+            <div class="login-title">Login</div>
+            <form class="form-container">
+                <label class="form-label" for="email">Email</label>
+                <input type="text" class="form-input">
+                <label class="form-label" for="email">Password</label>
+                <input type="password" class="form-input">
+            </form>
+            <div class="remember-me-fpwd">
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me" value="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </div>
+                <div class="forget-password">
+                    <a href="">Forgot your Password?</a>
+                </div>
+
+            </div>
+            <button class="btn login-btn">Login</button>
+            <div class="create-acc">
+                <a href="/signup/index.html">Create New Account ></a>
+            </div>
+    </main>
+
+</body>
+
+</html>

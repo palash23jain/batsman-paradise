@@ -33,15 +33,10 @@
     height: 80vh;
 }
 
-.products-in-grid{
-    margin: var(--spacing4) 0;
-}
-
 .showing-products{
-font-size: var(--fontSize5);
-font-weight: bold;
-margin: var(--spacing2) 0;
-
+    font-size: var(--fontSize5);
+    font-weight: bold;
+    margin: var(--spacing2) 0;
 }
 
 .products-in-grid{
@@ -49,4 +44,5 @@ margin: var(--spacing2) 0;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 2rem;
     row-gap: 5rem;
+    margin: var(--spacing4) 0;
 }
