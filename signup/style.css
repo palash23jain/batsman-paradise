@@ -1,5 +1,5 @@
 .card-login{
-    max-width: 350px;
+    max-width: 35rem;
     margin: var(--spacing8) auto;
     padding: var(--spacing3) var(--spacing6)
 }

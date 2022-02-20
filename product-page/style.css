@@ -9,7 +9,7 @@
     padding: 0 var(--spacing2);
     display: flex;
     flex-direction: column;
-    border-right: 1px solid var(--text);
+    border-right: 0.1rem solid var(--text);
     font-size: var(--fontSize5);
 }
 .sidebar-filter{
