@@ -1,0 +1,49 @@
+.card-login{
+    max-width: 350px;
+    margin: var(--spacing8) auto;
+    padding: var(--spacing3) var(--spacing6)
+}
+
+.login-title{
+    font-size: var(--spacing5);
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container{
+    width: 100%;
+}
+
+.form-label{
+    margin-top: var(--spacing3);
+    font-size: var(--fontSize3);
+}
+
+.remember-me-fpwd{
+    display: flex;
+    font-size: 1.4rem;
+    margin: var(--spacing3) 0;
+    justify-content: space-between;
+}
+
+.remember-me{
+    display: flex;
+    align-items: center;
+}
+
+.remember-me > input{
+    margin-right: var(--spacing2);
+}
+
+.login-btn{
+    background-color: var(--secondary);
+    width: 100%;
+    color: var(--primary);
+    font-size: var(--fontSize3);
+}
+
+.create-acc{
+    margin: var(--spacing3) 0;
+    text-align: center;
+    font-size: var(--fontSize3);
+}
