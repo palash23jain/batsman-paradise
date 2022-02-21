@@ -18,6 +18,10 @@
     border-radius: 2rem;
 }
 
+.product-img a img:hover{
+    box-shadow: 0 2px 5px 2px;
+}
+
 .new-arrivals{
     display: grid;
     grid-template-columns: 1fr 1fr;
