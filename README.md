@@ -29,6 +29,6 @@ This website is made of HTML and CSS.
 
 ## Website Link?
 
-Visit [bitUI](https://batsman-paradise.netlify.app/) for more information.
+Visit [Batsman's Paradise](https://batsman-paradise.netlify.app/) for more information.
 
     
