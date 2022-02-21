@@ -27,7 +27,7 @@
     place-items: center;
 }
 
-.sachin img{
+.hero-img-wrapper > img{
     object-fit: contain;
     width: 100%;
     height: 30rem;
